@@ -1,0 +1,15 @@
+# public/robots.txt
+
+User-agent: *
+Allow: /
+
+# منع الوصول إلى صفحات معينة (مثال)
+Disallow: /cart
+Disallow: /account/
+Disallow: /checkout
+Disallow: /api/
+
+User-agent: Googlebot-Image
+Allow: /
+
+Sitemap: https://yourstore.com/sitemap.xml
